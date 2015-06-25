@@ -1,7 +1,7 @@
 ===========================================
 
-ipython-notebooks: My studies in numerical computing
-====================================================
+My studies in numerical computing
+=================================
 
 Overview
 ========
