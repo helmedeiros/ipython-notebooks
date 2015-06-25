@@ -38,8 +38,8 @@ Now you will install ipython and its packages:
   $ pip install pandas
 ```
 
-Development installation
-========================
+First steps
+===========
 
 Now, you can work on your local repo copy and run it from anywhere::
 
