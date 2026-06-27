@@ -1,48 +1,26 @@
-===========================================
+# ipython-notebooks
 
-My studies in numerical computing
-=================================
+A collection of **IPython / Jupyter notebooks** from studies in numerical
+computing and data wrangling.
 
-Overview
-========
+IPython is an interactive computing shell that grew into the Jupyter notebook —
+code, output and notes in one document. These notebooks are a learning record,
+kept for the historical trail.
 
-Welcome to IPython. IPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history.
+## Notebooks
 
-Its full documentation is available [here](http://ipython.org/documentation.html);
+| Folder            | Topic                                                   |
+| ----------------- | ------------------------------------------------------- |
+| `json/`           | Reading JSON, mapping JSON to objects, QPX flight data. |
+| `print/`          | Output and formatting samples.                          |
+| `system_shell/`   | Running shell commands from a notebook.                 |
 
-Development installation
-========================
+## Running
 
-First install [homebrew](http://brew.sh/).
-
-Second verify the python version and update it:
-
-```ssh
-  # install a brewed python
-  $ brew install python
-
-  $ which python
-  # should say /usr/local/bin/python
-
-  $ echo $PATH
-  # /usr/local/bin should appear in front of /usr/bin
+```sh
+jupyter notebook
 ```
 
-Now you will install ipython and its packages:
+## License
 
-```ssh
-  $ pip install --upgrade "ipython[all]"
-  $ pip install pyzmq
-  $ pip install numpy
-  $ pip install scipy
-  $ pip install pandas
-```
-
-First steps
-===========
-
-Now, you can work on your local repo copy and run it from anywhere::
-
-```ssh
-  $ ipython notebook
-```
+[MIT](LICENSE)
